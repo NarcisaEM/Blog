@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Calatorie virtuala</title>
+<link rel="stylesheet"href="mystile.css">
+</head>
+
+<body>
+  <header>
+    <div class="subscribe">
+    <form>
+    <input type="email" placeholder="Enter email">
+    <button type="submit"> Subscribe to my blog 
+    </button>
+    </form>
+    </div>
+  </header>
+  <div class="menu" onclick="openArticles()">ALL ARTICLES</div>
+  <div class="menu"onclick="openReviews()">REWIEWS</div>
+  <div class="menu" onclick="openContact()">CONTACT</div>
+  
+  
+  <h1 class="title">Get to know me!</h1>
+  <h5 class="unde_title">My description</h5>
+  <h5 class="unde_title">Added by:</h5>
+  <h5 class="unde_title">Narcisa Mitrache</h5>
+  <h5 class="unde_title">13 January 2024</h5>
+  <img src="https://cdn.britannica.com/84/73184-050-05ED59CB/Sunflower-field-Fargo-North-Dakota.jpg">
+  <p class="descript"> My name, Narcisa, has always made me feel a bit unique, and I think it reflects my personality in a way that's both intriguing and maybe a bit mysterious. As a teenager, I'm figuring out who I am and what I'm passionate about. Whether I'm diving into my hobbies, focusing on my studies, or spending time with friends and family, I'm on a journey of self-discovery and growth.
+  
+  <h1 class="title">My Work!</h1>
+  <h5 class="unde_title">My portofolio</h5>
+  <h5 class="unde_title">Added by:</h5>
+  <h5 class="unde_title">Narcisa Mitrache</h5>
+  <h5 class="unde_title">10 January 2024</h5>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/World_Map_1689.JPG/1200px-World_Map_1689.JPG" class="image">
+  <p class="descript"> As a junior exploring geography, I'm fascinated by the mysteries of our planet. With each lesson, I dive into the diverse landscapes, cultures, and phenomena that make Earth so captivating. From mapping remote regions to unraveling natural phenomena and cultural landscapes, I'm driven by curiosity and a thirst for understanding. Every discovery fuels my passion to uncover the secrets of our mysterious planet.
+  
+  <h1 class="title">My passions!</h1>
+  <h5 class="unde_title">Extra-curriculars</h5>
+  <h5 class="unde_title">Added by:</h5>
+  <h5 class="unde_title">Narcisa Mitrache</h5>
+  <h5 class="unde_title">12 November 2023</h5>
+  <img src="https://www.travelandleisure.com/thmb/Nq9fBPWYGxNEmUvkK3P1b96F7XU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/composite-heathrow-airport-PLANEINSKY0322-f4e3d471b6b64c84bb297e5e7347076e.jpg"class="image">
+  <p class="descript"> It's not just about visiting new places; it's about immersing myself in different cultures, experiencing diverse landscapes, and connecting with people from all walks of life. Whether I'm exploring bustling cities, tranquil beaches, or remote villages, each journey leaves an indelible mark on my soul. The thrill of stepping into the unknown, the joy of trying new foods, and the beauty of witnessing breathtaking sights are what fuel my wanderlust. Traveling opens my mind, broadens my perspective, and fills my heart with unforgettable memories. It's not just a hobby; it's a way of life—an adventure waiting to be embraced at every turn.
+  
+  <h1 class="title">Exploring areas!</h1>
+  <h5 class="unde_title">Travel with me</h5>
+  <h5 class="unde_title">Added by:</h5>
+  <h5 class="unde_title">Narcisa Mitrache</h5>
+  <h5 class="unde_title">12 September 2023</h5>
+  <img src="https://3.imimg.com/data3/BE/DV/MY-13222257/tours-and-travels-services.jpg" class="image">
+  <p class="descript"> Exploring new areas is an exciting endeavor that requires a mix of planning and spontaneity.
+  
+  <script src"script.js"></script>
+</body>
+
+</html>
